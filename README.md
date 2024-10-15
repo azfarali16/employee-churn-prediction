@@ -30,6 +30,16 @@ This project aims to predict employee churn (attrition) using various features, 
 - **Performance**: 
   - The model achieved an accuracy of 83.4% on the test set.
 
+## Key Points from the EDA (Exploratory Data Analysis)
+
+- **Promotion and Tenure**: People who have not been promoted in the last 5 years are more likely to leave the company. Additionally, employees with a tenure of up to 6 years are also more likely to leave.
+  
+- **Work Hours and Projects**: Employees who work longer hours on average and handle more projects are more likely to leave.
+  
+- **Satisfaction Levels**: A lower satisfaction level significantly increases the likelihood of leaving the company.
+  
+- **Work Accidents**: Work accidents do not appear to have much importance in predicting employee churn, as they do not strongly correlate with the target variable.
+
 ## Tools and Libraries Used
 
 - Python
