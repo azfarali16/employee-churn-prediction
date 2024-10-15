@@ -18,17 +18,17 @@ This project aims to predict employee churn (attrition) using various features, 
 
 ## Methodology
 
-- **Data Preprocessing**: 
+- **Data Preprocessing**:
+  - Cleaning duplicate entries.
   - Scaling numerical features using `StandardScaler`.
   - Label encoding for categorical features (`department` and `salary`).
-  - One-hot encoding applied to categorical columns to avoid multicollinearity issues.
 
 - **Model**: 
   - Logistic Regression with **L2 regularization** was applied to predict employee churn.
   - Hyperparameter tuning was performed using GridSearchCV to select the best model.
 
 - **Performance**: 
-  - The model achieved an accuracy of 83.4% on the test set after cleaning duplicate entries.
+  - The model achieved an accuracy of 83.4% on the test set.
 
 ## Tools and Libraries Used
 
